@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+*{
+    font-family: 'Poor Story', cursive;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    align-items: center;
+}   
+
+.container{
+    /* border: 2px solid black; */
+    height: 85vh;
+    width: 70%;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .4rem;
+    box-shadow: 5px 5px 20px 6px #888888;
+}
+
+.title{
+    color: white;
+    margin-top: 0;
+    opacity: 0.9;
+    display: flex;
+    height: 3rem;
+    background-color: black;
+    width: 100%;
+    border-radius: .4rem;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+}
+
+.lists{
+    display: flex;
+
+}
+li{
+    list-style: none;
+    font-size: 1.3rem;
+    padding: .2rem .8rem;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.lists a:hover{
+    color: black;
+    font-size: 1.4rem;
+    transition: 100ms;
+}
+.display-image{
+    display: flex;
+}
+img{
+    height: auto;
+    width: 70%;
+    margin: 10px auto;
+}
+img:hover{
+    width: 72%;
+    transition: 180ms;   
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.. */
+.link-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 95vh;
+    width: 70%;
+    margin: 1.4rem auto;
+    border-radius: .4rem;
+    box-shadow: 5px 5px 20px 6px #888888;
+}
+.recipe-image{
+    height: auto;
+    width: 35rem;
+    margin: 1.5rem auto;
+    
+}
+
+.recipe-info,
+.ingridiants,
+.process{
+    margin: .2rem 5rem;   
+}
+
+.btn{
+    margin: .2rem auto;
+    border: 1.5px solid black;
+    border-radius: .4rem;
+}
+.btn a:hover{
+    color: rgb(165, 22, 22);
+    font-size: 18px;
+    font-weight: 700;
+    transition: 500ms ease-in-out;
+}
+
